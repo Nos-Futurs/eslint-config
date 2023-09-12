@@ -1,0 +1,47 @@
+# TOP LEVEL .gitignore
+#
+# WARNING: nested .gitignore files should not ignore themselves in nested folder. Add !/.gitignore to those nested .gitignore
+#
+# INFO: Patterns in .gitignore file apply recursively to the (sub)directory the file is in and all its subdirectories, unless pattern contains '/' (so e.g. pattern name applies to any file named name in given directory and all its subdirectories, while /name applies to file with this name only in given directory).
+#
+# INFO: This is an exclusion file (i.e. .gitignore) so the logic is inverted. If you want to keep track of the `/a/b` folder, ignore all, except the `a` directory, ignore all in `a` directory, except the `b` directory...
+# /*
+# !/a/
+# /a/*
+# !/a/b
+
+# This a reversed .gitignore. We ignore everything and only add what we need.
+/*
+!/.gitignore
+!/.gitmodules
+
+# -------------------------------- Config files -------------------------------- #
+!/.eslintignore
+!/.eslintrc.cjs
+!/index.js
+
+# -------------------------------- Commitlint -------------------------------- #
+!/commitlint.config.js
+
+# ------------------------------------ Doc ----------------------------------- #
+!/docs/
+!/README.md
+!/LICENSE
+
+# ------------------------------- EditorConfig ------------------------------- #
+!/.editorconfig
+
+# ---------------------------------- Github ---------------------------------- #
+!/.github
+
+# ----------------------------------- MacOS ---------------------------------- #
+.DS_Store
+
+# ----------------------------------- PNPM ----------------------------------- #
+!/.npmrc
+!/package.json
+!/pnpm-lock.yaml
+!/pnpm-workspace.yaml
+
+# ---------------------------------- VS Code --------------------------------- #
+!/.vscode/
