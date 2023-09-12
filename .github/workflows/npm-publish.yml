@@ -24,4 +24,4 @@ jobs:
               args: [--frozen-lockfile, --strict-peer-dependencies]
       - run: pnpm publish --no-git-checks
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_NOS_FUTURS_TOKEN }}
