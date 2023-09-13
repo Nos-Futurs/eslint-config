@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.5](https://github.com/Nos-Futurs/eslint-prettier-config/compare/v1.0.4...v1.0.5) (2023-09-13)
+
+
+### Bug Fixes
+
+* **gh-actions:** fix npm release ([b30545f](https://github.com/Nos-Futurs/eslint-prettier-config/commit/b30545f5516883940057f31c8562ad6f5595b17b))
+
 ### [1.0.4](https://github.com/Nos-Futurs/eslint-prettier-config/compare/v1.0.3...v1.0.4) (2023-09-13)
 
 ### [1.0.3](https://github.com/Nos-Futurs/eslint-prettier-config/compare/v1.0.2...v1.0.3) (2023-09-13)
