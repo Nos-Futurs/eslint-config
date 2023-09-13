@@ -1,6 +1,6 @@
 {
   "name": "@nos-futurs/eslint-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Custom ESlint/Prettier config",
   "files": [
     ".eslintrc.js",
