@@ -21,7 +21,7 @@ jobs:
           version: 8
           run_install: |
             - recursive: true
-              args: [--frozen-lockfile, --strict-peer-dependencies]
+              args: []
       - run: pnpm publish --no-git-checks --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_NOS_FUTURS_TOKEN }}
