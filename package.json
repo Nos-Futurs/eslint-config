@@ -47,6 +47,6 @@
     "lint-ts": "eslint . --ext .cjs,.js,.ts --fix -c ./.eslintrc.ts.cjs",
     "patch": "standard-version --release-as patch",
     "push": "git push --follow-tags origin master",
-    "release": "standard-version"
+    "release": "standard-version && git push --follow-tags origin trunk"
   }
 }
