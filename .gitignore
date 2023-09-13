@@ -17,8 +17,11 @@
 
 # -------------------------------- Config files -------------------------------- #
 !/.eslintignore
-!/.eslintrc.cjs
+!/.eslintrc.js
+!/.eslintrc.ts.js
 !/index.js
+!/ts.js
+!/tsconfig.json
 
 # -------------------------------- Commitlint -------------------------------- #
 !/commitlint.config.js

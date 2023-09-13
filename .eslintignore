@@ -1,12 +1,6 @@
-/build
-/dist
 /node_modules
-.eslintrc.(.*)js
-*.scss
-*.css
-tsconfig(.*).json
-commitlint.config.js
-
-# Proto typings should not be linted
-src/proto
-src/prisma
+/LICENSE
+/package.json
+# .eslintrc.(.*)js
+# tsconfig(.*).json
+# commitlint.config.js

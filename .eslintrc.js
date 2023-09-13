@@ -1,26 +1,20 @@
-// @ts-check
 module.exports = {
-  extends: ['plugin:@typescript-eslint/recommended', 'airbnb-base', 'airbnb-typescript/base', 'prettier'],
+  extends: ['airbnb-base', 'prettier'],
   env: {
     browser: true,
     es6: true,
     node: true,
     jest: true,
   },
-  ignorePatterns: ['.eslintrc.cjs', '.prettierrc.cjs'],
-  parser: '@typescript-eslint/parser',
   parserOptions: {
-    project: 'tsconfig.json',
+    ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['@typescript-eslint/eslint-plugin', 'import', 'simple-import-sort'],
+  plugins: ['import', 'prettier', 'simple-import-sort'],
   root: true,
   rules: {
-    '@typescript-eslint/explicit-function-return-type': 'warn',
-    '@typescript-eslint/explicit-module-boundary-types': 'warn',
-    '@typescript-eslint/interface-name-prefix': 'off',
-    '@typescript-eslint/no-explicit-any': 'warn',
     'class-methods-use-this': 'off',
+    /* ---------------- Prevent errors when importing TS packages --------------- */
     // https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/extensions.md
     'import/extensions': [
       'error',
@@ -31,14 +25,18 @@ module.exports = {
       },
     ],
     /* ----------------------------- Import sorting ----------------------------- */
+    // we use this plugin to sort: https://github.com/lydell/eslint-plugin-simple-import-sort
     'import/first': 'error',
     'import/newline-after-import': 'error',
     'import/no-duplicates': 'error',
     'import/order': 'off', // airbnb-base uses eslint-plugin-import import/order which conflict with our sorting order
-    // we use this plugin to sort: https://github.com/lydell/eslint-plugin-simple-import-sort
     'simple-import-sort/exports': 'error',
     'simple-import-sort/imports': 'error',
     /* ----------------------------- Prettier rules ----------------------------- */
+    // Prettier compatibility: https://github.com/prettier/eslint-plugin-prettier#arrow-body-style-and-prefer-arrow-callback-issue
+    'arrow-body-style': 'off',
+    'prefer-arrow-callback': 'off',
+    // We use Prettier as a pugin instead of using the regular program with .prettierrc conf file because this allows to simply import this config to fix lint and format errors
     'prettier/prettier': [
       'error',
       {
