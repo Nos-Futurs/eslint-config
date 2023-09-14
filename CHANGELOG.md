@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/Nos-Futurs/eslint-prettier-config/compare/v1.0.5...v1.1.0) (2023-09-14)
+
+
+### Features
+
+* **js:** downgrade prefer-default-export to warning ([8ab66f7](https://github.com/Nos-Futurs/eslint-prettier-config/commit/8ab66f78d513ac957995afa09d986443c2b24584))
+
 ### [1.0.5](https://github.com/Nos-Futurs/eslint-prettier-config/compare/v1.0.4...v1.0.5) (2023-09-13)
 
 
