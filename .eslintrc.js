@@ -14,6 +14,7 @@ module.exports = {
   root: true,
   rules: {
     'class-methods-use-this': 'off',
+    'import/prefer-default-export': 'warn',
     /* ---------------- Prevent errors when importing TS packages --------------- */
     // https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/extensions.md
     'import/extensions': [
