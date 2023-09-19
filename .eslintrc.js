@@ -25,6 +25,13 @@ module.exports = {
         '': 'never',
       },
     ],
+    // packages in test files should be in devDependencies, not normal dependencies
+    'import/no-extraneous-dependencies': [
+      'error',
+      {
+        devDependencies: ['**/*.spec.ts', '**/*.test.ts'],
+      },
+    ],
     /* ----------------------------- Import sorting ----------------------------- */
     // we use this plugin to sort: https://github.com/lydell/eslint-plugin-simple-import-sort
     'import/first': 'error',
