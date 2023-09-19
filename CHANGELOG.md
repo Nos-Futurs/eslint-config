@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/Nos-Futurs/eslint-prettier-config/compare/v1.3.0...v1.4.0) (2023-09-19)
+
+
+### Features
+
+* add nest and fastify rule exceptions and exclude more spec files from extraneous dependencies rule ([97036f3](https://github.com/Nos-Futurs/eslint-prettier-config/commit/97036f3fafd221f79f90ecfcf407c140357cc288))
+
 ## [1.3.0](https://github.com/Nos-Futurs/eslint-prettier-config/compare/v1.2.1...v1.3.0) (2023-09-19)
 
 
