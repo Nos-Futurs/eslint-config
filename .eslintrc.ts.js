@@ -16,7 +16,14 @@ module.exports = {
     '@typescript-eslint/explicit-module-boundary-types': 'warn',
     '@typescript-eslint/interface-name-prefix': 'off',
     '@typescript-eslint/no-explicit-any': 'warn',
-    '@typescript-eslint/type-annotation-spacing': 'error',
     // '@typescript-eslint/no-explicit-any': ['error', { fixToUnknown: true, ignoreRestArgs: true }],
+    '@typescript-eslint/type-annotation-spacing': 'error',
+    /* --------------------------------- Fastify -------------------------------- */
+    // INFO: no-floating-promises requires all thenable to be handled, even when they are not real promises. Using the void qualifier  evaluates the expression then returns undefined. See https://github.com/fastify/fastify/discussions/3849 and https://github.com/typescript-eslint/typescript-eslint/issues/2640
+    'no-void': 'warn',
+    /* --------------------------------- NestJS --------------------------------- */
+    // INFO: Nest injects services in the empty constructors
+    'no-empty-function': 'warn',
+    'no-useless-constructor': 'warn',
   },
 };

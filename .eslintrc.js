@@ -29,7 +29,7 @@ module.exports = {
     'import/no-extraneous-dependencies': [
       'error',
       {
-        devDependencies: ['**/*.spec.ts', '**/*.test.ts'],
+        devDependencies: ['**/*spec.ts', '**/*test.ts'],
       },
     ],
     /* ----------------------------- Import sorting ----------------------------- */
