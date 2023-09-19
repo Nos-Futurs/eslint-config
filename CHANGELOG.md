@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.1](https://github.com/Nos-Futurs/eslint-prettier-config/compare/v1.4.0...v1.4.1) (2023-09-19)
+
+
+### Bug Fixes
+
+* disable base rule for no-shadow and enable typescript ([8823d4e](https://github.com/Nos-Futurs/eslint-prettier-config/commit/8823d4eb9fadd42e7263a81c755718d664e96df0))
+
 ## [1.4.0](https://github.com/Nos-Futurs/eslint-prettier-config/compare/v1.3.0...v1.4.0) (2023-09-19)
 
 
