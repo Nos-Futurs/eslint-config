@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['airbnb-base', 'prettier'],
+  extends: ['airbnb-base', 'plugin:prettier/recommended'],
   env: {
     browser: true,
     es6: true,
@@ -10,7 +10,7 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['import', 'prettier', 'simple-import-sort'],
+  plugins: ['import', 'simple-import-sort'],
   root: true,
   rules: {
     'class-methods-use-this': 'off',
@@ -40,10 +40,6 @@ module.exports = {
     'import/order': 'off', // airbnb-base uses eslint-plugin-import import/order which conflict with our sorting order
     'simple-import-sort/exports': 'error',
     'simple-import-sort/imports': 'error',
-    /* ----------------------------- Prettier rules ----------------------------- */
-    // Prettier compatibility: https://github.com/prettier/eslint-plugin-prettier#arrow-body-style-and-prefer-arrow-callback-issue
-    'arrow-body-style': 'off',
-    'prefer-arrow-callback': 'off',
     // We use Prettier as a pugin instead of using the regular program with .prettierrc conf file because this allows to simply import this config to fix lint and format errors
     'prettier/prettier': [
       'error',
