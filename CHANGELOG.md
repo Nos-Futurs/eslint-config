@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [1.4.3](https://github.com/Nos-Futurs/eslint-prettier-config/compare/v1.4.2...v1.4.3) (2023-11-14)
 
+### [1.4.3](https://github.com/Nos-Futurs/eslint-prettier-config/compare/v1.4.2...v1.4.3) (2023-11-14)
+
 ### [1.4.3](https://github.com/Nos-Futurs/eslint-prettier-config/compare/v1.4.1...v1.4.3) (2023-11-14)
 
 ### [1.4.2](https://github.com/Nos-Futurs/eslint-prettier-config/compare/v1.4.1...v1.4.2) (2023-09-21)
