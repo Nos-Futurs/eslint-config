@@ -20,6 +20,6 @@ jobs:
         with:
           version: 8
           run_install: true
-      - run: pnpm publish --no-git-checks --access public
+      - run: pnpm publish --no-git-checks --access restricted
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_NOS_FUTURS_TOKEN }}
