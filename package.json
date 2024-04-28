@@ -43,7 +43,7 @@
   "scripts": {
     "commitlint": "commitlint --edit",
     "lint": "eslint . --ext .cjs,.js,.ts --fix",
-    "lint-ts": "eslint . --ext .cjs,.js,.ts --fix -c ./.eslintrc.ts.cjs",
+    "lint-ts": "eslint . --ext .cjs,.js,.ts --fix -c ./.eslintrc.ts.js",
     "patch": "standard-version --release-as patch",
     "push": "git push --follow-tags origin",
     "release": "standard-version && pnpm push"
