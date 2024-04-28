@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.4](https://github.com/Nos-Futurs/eslint-prettier-config/compare/v1.4.3...v1.4.4) (2024-04-28)
+
+
+### Bug Fixes
+
+* fix type in package scripts ([8986c55](https://github.com/Nos-Futurs/eslint-prettier-config/commit/8986c55d0a5766363f77cfe736651f1760e64582))
+
 ### [1.4.3](https://github.com/Nos-Futurs/eslint-prettier-config/compare/v1.4.2...v1.4.3) (2023-11-14)
 
 ### [1.4.3](https://github.com/Nos-Futurs/eslint-prettier-config/compare/v1.4.2...v1.4.3) (2023-11-14)
