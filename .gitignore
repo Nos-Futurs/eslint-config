@@ -47,5 +47,9 @@
 !/pnpm-lock.yaml
 !/pnpm-workspace.yaml
 
+# ------------------------------ Release-Please ------------------------------ #
+!/.release-please-manifest.json
+!/release-please-config.json
+
 # ---------------------------------- VS Code --------------------------------- #
 !/.vscode/
