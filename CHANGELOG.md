@@ -2,6 +2,34 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.5](https://github.com/Nos-Futurs/eslint-prettier-config/compare/eslint-config-v1.4.4...eslint-config-v1.4.5) (2024-04-29)
+
+
+### Features
+
+* add nest and fastify rule exceptions and exclude more spec files from extraneous dependencies rule ([97036f3](https://github.com/Nos-Futurs/eslint-prettier-config/commit/97036f3fafd221f79f90ecfcf407c140357cc288))
+* create npm publish github action ([55fcc56](https://github.com/Nos-Futurs/eslint-prettier-config/commit/55fcc569b6bc258e75b32f102475c6015aefa8a1))
+* **eslint:** initial config with import sort and nested prettier config ([9d5a86b](https://github.com/Nos-Futurs/eslint-prettier-config/commit/9d5a86b87eb8fdcc50dddae744321d92e451c836))
+* exclude spec files from extraneous dependencies rule ([cdb04cc](https://github.com/Nos-Futurs/eslint-prettier-config/commit/cdb04cc6206def9644ed1bb2c8d82e57b4bdd561))
+* extend js config in ts ([333cb50](https://github.com/Nos-Futurs/eslint-prettier-config/commit/333cb5070ef5371bbbfb4707a653ac69559d2d25))
+* **js:** downgrade prefer-default-export to warning ([8ab66f7](https://github.com/Nos-Futurs/eslint-prettier-config/commit/8ab66f78d513ac957995afa09d986443c2b24584))
+* update the config and use release-please in GitHub actions ([b26f493](https://github.com/Nos-Futurs/eslint-prettier-config/commit/b26f493a45ddb3c998a3a4a4d85c8c0e736d0902))
+
+
+### Bug Fixes
+
+* disable base rule for no-shadow and enable typescript ([8823d4e](https://github.com/Nos-Futurs/eslint-prettier-config/commit/8823d4eb9fadd42e7263a81c755718d664e96df0))
+* fix the eslint config and add README.md ([c9c54db](https://github.com/Nos-Futurs/eslint-prettier-config/commit/c9c54db0245501eb6b0630e4bad194fb76b108ca))
+* fix type in package scripts ([8986c55](https://github.com/Nos-Futurs/eslint-prettier-config/commit/8986c55d0a5766363f77cfe736651f1760e64582))
+* **gh-actions:** fix npm release ([b30545f](https://github.com/Nos-Futurs/eslint-prettier-config/commit/b30545f5516883940057f31c8562ad6f5595b17b))
+* move extended config to last position in ts config ([3b1e9f5](https://github.com/Nos-Futurs/eslint-prettier-config/commit/3b1e9f59eb6be308969e9b88a6e35d263b0389f9))
+* **release-please:** add the necessary manifest files ([a16371b](https://github.com/Nos-Futurs/eslint-prettier-config/commit/a16371b596a49be424c6e354ac82844de1ead6b5))
+
+
+### Miscellaneous Chores
+
+* release 1.4.5 ([cc57185](https://github.com/Nos-Futurs/eslint-prettier-config/commit/cc57185e350102291ce7e7519e1c816d332c702a))
+
 ### [1.4.4](https://github.com/Nos-Futurs/eslint-prettier-config/compare/v1.4.3...v1.4.4) (2024-04-28)
 
 
