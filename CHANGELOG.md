@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.6](https://github.com/Nos-Futurs/eslint-prettier-config/compare/eslint-config-v1.4.5...eslint-config-v1.4.6) (2024-04-29)
+
+
+### Bug Fixes
+
+* **release-please:** udate registry URL in release-please workflow ([73ec438](https://github.com/Nos-Futurs/eslint-prettier-config/commit/73ec4381b5969af810bd3233f0c71e804e342084))
+
 ## [1.4.5](https://github.com/Nos-Futurs/eslint-prettier-config/compare/eslint-config-v1.4.4...eslint-config-v1.4.5) (2024-04-29)
 
 
