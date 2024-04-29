@@ -1,0 +1,39 @@
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - trunk
+
+permissions:
+  contents: write
+  pull-requests: write
+
+name: release-please
+
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: google-github-actions/release-please-action@v4
+        id: release
+        with:
+          target-branch: trunk
+          token: ${{ secrets.GH_RELEASE_PLEASE_TOKEN }}
+                # The logic below handles the npm publication:
+      - uses: actions/checkout@v4
+        if: ${{ steps.release.outputs.release_created }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          registry-url: https://npm.pkg.github.com
+        if: ${{ steps.release.outputs.release_created }}
+      - uses: pnpm/action-setup@v3
+        with:
+          version: 8
+          run_install: true
+        if: ${{ steps.release.outputs.release_created }}
+      - run: pnpm publish --no-git-checks --access restricted
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_NOS_FUTURS_TOKEN }}
+        if: ${{ steps.release.outputs.release_created }}
+                

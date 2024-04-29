@@ -2,13 +2,15 @@ module.exports = {
   extends: ['plugin:@typescript-eslint/recommended-type-checked', 'airbnb-typescript/base', './.eslintrc.js'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
-    project: 'tsconfig.json',
+    project: true,
   },
   plugins: ['@typescript-eslint'],
   settings: {
     'import/resolver': {
       // https://github.com/alexgorbatchev/eslint-import-resolver-typescript#configuration
-      typescript: {},
+      typescript: {
+        alwaysTryTypes: true, // always try to resolve types under `<root>@types` directory even it doesn't contain any source code, like `@types/unist`
+      },
     },
   },
   rules: {
