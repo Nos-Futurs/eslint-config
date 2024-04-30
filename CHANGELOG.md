@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/Nos-Futurs/eslint-prettier-config/compare/eslint-config-v1.4.7...eslint-config-v1.5.0) (2024-04-30)
+
+
+### Features
+
+* update eslint-config-airbnb-typescript to version 18.0.0 ([a4fc01c](https://github.com/Nos-Futurs/eslint-prettier-config/commit/a4fc01c54fd397ef136a9f8a4db382d07dbc1ec2))
+
 ## [1.4.7](https://github.com/Nos-Futurs/eslint-prettier-config/compare/eslint-config-v1.4.6...eslint-config-v1.4.7) (2024-04-29)
 
 
